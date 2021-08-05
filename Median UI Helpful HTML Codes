@@ -1,0 +1,64 @@
+<!--Median UI Helpful HTML Codes-->
+
+
+<!--To Text (Codes Style):-->
+
+<span class='code'>Your Text</span>
+
+
+<!--To Center Any Codes Or Text:-->
+
+<center> Your Message</center>
+
+
+<!--To Add Split Post - Split Article Into Several Pages-->
+
+<div class="postNav" id="postPager">
+  <span class="page current">Pages:</span><span class="current">1</span
+  ><a
+    href="#"
+    >2</a
+  ><a
+    href="#"
+    >3</a
+  ><a
+    href="#"
+    >Next</a
+  >
+</div>
+
+
+<!--To Add Tabs Post - Split Article with Tab Function-->
+
+<!--[ Active function ]-->
+<input class='allTabs hidden' id='forall-tabs1' type='radio' name='postTabs' checked>
+<input class='allTabs hidden' id='forall-tabs2' type='radio' name='postTabs'>
+<input class='allTabs hidden' id='forall-tabs3' type='radio' name='postTabs'>
+<div class='postTabs'>
+  <div class='tabsHead'>
+    <!--[ Change atribute data-text='...' to replace tabs title ]-->
+    <label for='forall-tabs1' data-text='Your Text 1'></label>
+    <label for='forall-tabs2' data-text='Your Text 2'></label>
+    <label for='forall-tabs3' data-text='Your Text 3'></label>
+  </div>
+
+  <div class='tabsContent'>
+    <!--[ Tabs content ]-->
+    <div class='tabsContent-1'>
+      <p> Your Text Here </p>
+    </div>
+
+    <!--[ Tabs content ]-->
+    <div class='tabsContent-2'>
+      <p> Your Text Here </p>
+    </div>
+
+    <!--[ Tabs content ]-->
+    <div class='tabsContent-3'>
+      <p> Your Text Here </p>
+    </div>
+
+
+<!--To Highlight Text-->
+
+<span class="code">Your Text</span>
